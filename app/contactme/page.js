@@ -35,7 +35,7 @@ const Page = () => {
                     <span className='text-blue-400'>--- </span> Contact us
                 </div>
                 <span className='text-3xl font- p-2' >
-                    Let's <span className='text-blue-400'>Connect</span> & <span className='text-blue-400'>Collabrate</span>
+                    Let&apos;s <span className='text-blue-400'>Connect</span> & <span className='text-blue-400'>Collabrate</span>
                 </span>
                 <span className='p-2'>
                     connect with  <span className='text-blue-400'>me</span> today
