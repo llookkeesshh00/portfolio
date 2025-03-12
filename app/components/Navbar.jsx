@@ -26,8 +26,8 @@ const Navbar = () => {
             </div>
           </Link>
           <Link href="/skills">
-            <div className={`font-semibold transition-all ${pathname === "/services" ? "text-blue-500" : "text-gray-400 hover:text-blue-500"}`}>
-              Services
+            <div className={`font-semibold transition-all ${pathname === "/skills" ? "text-blue-500" : "text-gray-400 hover:text-blue-500"}`}>
+              Skills
             </div>
           </Link>
           <Link href="/projects">
