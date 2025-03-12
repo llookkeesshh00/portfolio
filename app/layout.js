@@ -15,7 +15,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${outfit.variable} antialiased relative `}>
+      <body className={`${outfit.className} antialiased relative`}>
         <div className="flex flex-col gap-4 p-6 mx-auto max-w-4/5 bg-gray-50 min-h-screen">
           <Navbar />
           {children}
