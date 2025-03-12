@@ -4,7 +4,7 @@ const Page = () => {
   return (
     <div className=' w-full min-h-screen p-6 gap-6  shadow-2xl rounded-3xl flex flex-col'>
       <div className="heading font-semibold text-2xl text-blue-500">
-        Hey I'm Lokesh Naidu SP ....
+        Hey I&apos;m Lokesh Naidu SP ....
       </div>
       <div>
         <div className='flex flex-col gap-2 w-3/4'>
