@@ -1,4 +1,7 @@
 import React from 'react'
+import Image from 'next/image';
+
+
 
 const Page = () => {
   return (
@@ -9,7 +12,7 @@ const Page = () => {
       <div className='items border gap-y-6  gap-3 p-6 grid grid-cols-3 '>
         <div className="item border justify-items-center p-2 flex gap-4 flex-col ">
           <div className="image">
-            <img src="/programming.png" alt="" />
+            <Image src="/programming.png" alt="" width={50} height={50} />
           </div>
           <div className="heading text-xl font-medium text-blue-500">
             Programming Languages
@@ -20,7 +23,7 @@ const Page = () => {
         </div>
         <div className="item border  justify-items-center p-2 flex gap-4 flex-col ">
           <div className="image">
-           <img src="/cs.png" alt="" />
+           <Image src="/cs.png" alt="" width={50} height={50}  />
            </div>
           <div className="heading text-xl font-medium text-blue-500">
             CS fundamentals
@@ -31,7 +34,7 @@ const Page = () => {
         </div>
         <div className="item border justify-items-center p-2 flex gap-4 flex-col ">
           <div className="image">
-            <img src="/webdev.png" alt="" />
+            <Image src="/webdev.png" alt="" width={50} height={50}  />
           </div>
           <div className="heading text-xl font-medium text-blue-500">
             Web technologies
@@ -43,7 +46,7 @@ const Page = () => {
         </div>
         <div className="item border  justify-items-center p-2 flex gap-4 flex-col ">
           <div className="image">
-            <img src="/database.png" alt="" />
+            <Image src="/database.png" alt="" width={50} height={50}  />
           </div>
           <div className="heading text-xl font-medium text-blue-500">
           Databases & Query Languages
@@ -54,7 +57,7 @@ const Page = () => {
         </div>
         <div className="item border  justify-items-center p-2 flex gap-4 flex-col ">
          <div className="image">
-          <img src="/cloud.png" alt="" />
+          <Image src="/cloud.png" alt="" width={50} height={50}  />
          </div>
           <div className="heading text-xl font-medium text-blue-500">
           Cloud & DevOps
@@ -65,7 +68,7 @@ const Page = () => {
         </div>
         <div className="item border  justify-items-center p-2 flex gap-4 flex-col ">
           <div className="image">
-            <img src="/version.png " alt="" />
+            <Image src="/version.png" alt="" width={50} height={50}  />
           </div>
           <div className="heading text-xl font-medium text-blue-500">
             Version Control & Collaboration
