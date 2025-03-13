@@ -54,7 +54,7 @@ const Navbar = () => {
 
       {/* Mobile Menu (Viisibble Onlly When isopen  is True) */}
       {isOpen && (
-        <div className="md:hidden absolute top-16 right-0 w-full bg-gray-100 rounded-2xl shadow-lg p-5 flex flex-col gap-4 items-center">
+        <div className="md:hidden absolute top-16 right-0 w-full z-10 bg-gray-100 rounded-2xl shadow-lg p-5 flex flex-col gap-4 items-center">
           <Link href="/" onClick={() => setIsOpen(false)}>
             <div className={`font-bold transition-all ${pathname === "/" ? "text-blue-500" : "text-gray-400 hover:text-blue-500"}`}>
               Home
