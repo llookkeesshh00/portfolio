@@ -9,7 +9,7 @@ const Page = () => {
       <h1 className="header  p-4 text-2xl text-blue-500 font-bold">
         --- My Skills
       </h1>
-      <div className='items  gap-y-6  gap-3 p-6 grid grid-cols-3 '>
+      <div className='items  gap-y-6  gap-6 p-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3  w-full '>
         <div className="item  bg-gray-200 rounded-3xl shadow-2xl justify-items-center p-2 flex gap-4 flex-col ">
           <div className="image">
             <Image src="/programming.png" alt="" width={50} height={50} />

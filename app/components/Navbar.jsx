@@ -65,9 +65,9 @@ const Navbar = () => {
               About me
             </div>
           </Link>
-          <Link href="/services" onClick={() => setIsOpen(false)}>
+          <Link href="/skills" onClick={() => setIsOpen(false)}>
             <div className={`font-bold transition-all ${pathname === "/skills" ? "text-blue-500" : "text-gray-400 hover:text-blue-500"}`}>
-              Services
+              skills
             </div>
           </Link>
           <Link href="/projects" onClick={() => setIsOpen(false)}>
