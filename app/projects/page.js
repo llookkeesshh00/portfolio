@@ -9,7 +9,7 @@ const page = () => {
         My Latest Projects....
       </div>
       <div className="items flex flex-col gap-8 s ">
-        <div className="item drop-shadow-md rounded-3xl p-6  bg-gray-100 grid grid-cols-1 sm:grid-cols-2 gap-6  ">
+        <div className="item drop-shadow-md rounded-3xl p-6 place-items-center bg-gray-100 grid grid-cols-1 sm:grid-cols-2 gap-6  ">
           <div className="image ">
             <Image src="/meatconnect.png" alt="" height={500} width={500} />
           </div>
@@ -21,9 +21,8 @@ const page = () => {
               A B2B web application that facilitates efficient interactions between meat suppliers and buyers (restaurants and hotels), enabling seamless contract negotiations, contract management, order tracking, and communication. Initially deployed on a serverless architecture on Vercel for improved efficiency, it was later deployed on an S3 bucket and connected with a CloudFront distribution on AWS. The backend is hosted on an EC2 instance with Nginx for reverse proxy and load balancing.
             </div>
             <div className='sm:flex sm:flex-row sm:justify-between gap-4 flex flex-col   w-full'>
-              <button className="bg-blue-500 rounded-3xl px-4 py-2 font-semibold text-white hover:bg-blue-600 sm:w-1/2 transition">
-                Git hub
-                <Link href="https://github.com/llookkeesshh00/meatconnectFE"></Link>
+              <button className="bg-blue-500 rounded-3xl px-4 py-2 font-semibold text-white hover:bg-blue-600 sm:w-1/2 transition">             
+                <Link href="https://github.com/llookkeesshh00/meatconnectFE" target='_blank'>  Git hub</Link>
               </button>
               <button className="bg-blue-500 rounded-3xl px-4 py-2 font-semibold text-white hover:bg-blue-600 sm:w-1/2 transition">
                 Find more..
@@ -31,7 +30,7 @@ const page = () => {
             </div>
           </div>
         </div>
-        <div className="item drop-shadow-md rounded-3xl p-6 bg-gray-100 grid grid-cols-1 sm:grid-cols-2 gap-3 ">
+        <div className="item drop-shadow-md rounded-3xl p-6 place-items-center bg-gray-100 grid grid-cols-1 sm:grid-cols-2 gap-3 ">
           <div className="image ">
             <Image src="/passwordmanager.png" alt="" height={500} width={500} />
           </div>
@@ -55,9 +54,9 @@ const page = () => {
           </div>
         </div>
 
-        <div className="item drop-shadow-md rounded-3xl p-6 bg-gray-100 grid grid-cols-1 sm:grid-cols-2  gap-3 ">
+        <div className="item drop-shadow-md rounded-3xl p-6 place-items-center bg-gray-100 grid grid-cols-1 sm:grid-cols-2  gap-3 ">
           <div className="image ">
-            <Image src="/meatconnect.png" alt="" height={500} width={500} />
+            <Image src="/route2.png" alt="" height={500} width={500} />
           </div>
           <div className="content flex flex-col items-center justify-center gap-3">
             <div className="h2 font-semibold text-xl  text-blue-500 ">
@@ -77,9 +76,9 @@ const page = () => {
             </div>
           </div>
         </div>
-        <div className="item drop-shadow-md rounded-3xl p-6 bg-gray-100 grid grid-cols-1 sm:grid-cols-2 gap-3 ">
+        <div className="item drop-shadow-md rounded-3xl p-6 place-items-center bg-gray-100 grid grid-cols-1 sm:grid-cols-2 gap-3 ">
           <div className="image ">
-            <Image src="/meatconnect.png" alt="" height={500} width={500} />
+            <Image src="/route1.png" alt="" height={500} width={500} />
           </div>
           <div className="content flex flex-col items-center justify-center gap-3">
             <div className="h2 font-semibold text-xl  text-blue-500 ">
