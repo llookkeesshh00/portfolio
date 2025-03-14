@@ -8,7 +8,7 @@ const Navbar = () => {
   const pathname = usePathname(); 
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <nav className="bg-gray-100 shadow-lg rounded-2xl p-3">
+    <nav className="bg-gray-100 shadow-lg  rounded-2xl p-3">
       <div className="flex justify-between items-center max-w-7xl mx-auto px-4">
        
         <div className="text-xl font-bold text-blue-500">Hii there</div>
