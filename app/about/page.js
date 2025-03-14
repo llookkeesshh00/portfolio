@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React from 'react'
+import Image from "next/image";
 
 const Page = () => {
   return (
@@ -88,10 +89,19 @@ const Page = () => {
 
       <div className='flex flex-col gap-3'>
         <div className="heading2 font-md text-lg md:text-xl text-blue-400">
+          My resume
+        </div>
+        <div className="w-full flex items-center md:w-3/4 bg-gray-200 rounded-2xl  p-4">
+           <Image src="/resumesvg.png"  height={50} width={50} alt="" />
+          <Link href="/resume.pdf" target="_blank" className="underline  transition-transform duration-300 hover:scale-105"> click here to view</Link>
+        </div>
+      </div>
+      <div className='flex flex-col gap-3'>
+        <div className="heading2 font-md text-lg md:text-xl text-blue-400">
           My Experience
         </div>
         <div className="w-full md:w-3/4 bg-gray-200 rounded-2xl min-h-52 p-4">
-          {/* Add experience details here */}
+         
         </div>
       </div>
     </div>

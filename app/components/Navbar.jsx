@@ -16,22 +16,22 @@ const Navbar = () => {
     
         <div className="hidden md:flex gap-10">
           <Link href="/">
-            <div className={`font-semibold transition-all ${pathname === "/" ? "text-blue-500" : "text-gray-400 hover:text-blue-500"}`}>
+            <div className={`font-semibold   transition-transform duration-300 hover:scale-105 ${pathname === "/" ? "text-blue-500 " : "text-gray-400 hover:text-blue-500"}`}>
               Home
             </div>
           </Link>
           <Link href="/about">
-            <div className={`font-semibold transition-all ${pathname === "/about" ? "text-blue-500" : "text-gray-400 hover:text-blue-500"}`}>
+            <div className={`font-semibold  transition-transform duration-300 hover:scale-105 ${pathname === "/about" ? "text-blue-500" : "text-gray-400 hover:text-blue-500"}`}>
               About me
             </div>
           </Link>
           <Link href="/skills">
-            <div className={`font-semibold transition-all ${pathname === "/skills" ? "text-blue-500" : "text-gray-400 hover:text-blue-500"}`}>
+            <div className={`font-semibold  transition-transform duration-300 hover:scale-105 ${pathname === "/skills" ? "text-blue-500" : "text-gray-400 hover:text-blue-500"}`}>
               Skills
             </div>
           </Link>
           <Link href="/projects">
-            <div className={`font-semibold transition-all ${pathname === "/projects" ? "text-blue-500" : "text-gray-400 hover:text-blue-500"}`}>
+            <div className={`font-semibold  transition-transform duration-300 hover:scale-105 ${pathname === "/projects" ? "text-blue-500" : "text-gray-400 hover:text-blue-500"}`}>
               Projects
             </div>
           </Link>
@@ -40,7 +40,7 @@ const Navbar = () => {
        
         <div className="hidden md:block">
           <Link href="/contactme">
-            <button className="bg-blue-500 rounded-3xl px-4 py-2 font-semibold text-white hover:bg-blue-600 transition">
+            <button className="bg-blue-500 rounded-3xl px-4 py-2 font-semibold text-white hover:bg-blue-600   transition-transform duration-300 hover:scale-105">
               Contact me
             </button>
           </Link>

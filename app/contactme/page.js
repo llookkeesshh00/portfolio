@@ -82,7 +82,7 @@ const Page = () => {
                 <textarea className="bg-gray-200 w-full p-5 drop-shadow-md h-[200px] rounded-2xl focus:outline-none"
                     name="message" placeholder="Message *" value={formData.message} onChange={handleChange} />
                 <div className="flex justify-center items-center">
-                    <button onClick={handleSubmit} className="bg-blue-500 rounded-3xl px-4 py-2 font-semibold text-white hover:bg-blue-800 transition-all">
+                    <button onClick={handleSubmit} className="bg-blue-500 rounded-3xl px-4 py-2 font-semibold text-white hover:bg-blue-800  transition-transform duration-300 hover:scale-105">
                         Send message
                     </button>
                 </div>
