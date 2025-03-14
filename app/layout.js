@@ -10,13 +10,16 @@ const outfit = Outfit({
 export const metadata = {
   title: "portfolio",
   description: "im lokesh and its my personal portfolio website",
+  icons: {
+    icon: "/vercel.png", 
+  },
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${outfit.className} antialiased relative`}>
-        <div className=" w-full sm:w-3/4  z-50 fixed mx-auto sm:left-[170px]   top-0">
+        <div className=" w-full sm:w-[1022px]  z-50 fixed mx-auto sm:left-[165px]   top-0">
           <Navbar />
         </div>
         <div className="flex flex-col gap-4 p-2 sm:p-6 mt-16  mx-auto w-full sm:w-4/5 max-w-screen-lg bg-gray-50 min-h-screen">
