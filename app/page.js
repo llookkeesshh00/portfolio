@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Home() {
   return (
 
-    <div className=" bg-white [background:radial-gradient(125%_125%_at_50%_10%,#fff_40%,#63e_100%)] hero   border-blue-200  w-full min-h-screen p-6 gap-6 rounded-2xl shadow-2xl flex flex-col items-center ">
+    <div className=" bg-white [background:radial-gradient(125%_125%_at_50%_10%,#fff_40%,#2b7fff_100%)] hero   border-blue-200  w-full min-h-screen p-6 gap-6 rounded-2xl shadow-2xl flex flex-col items-center ">
       <div className="p flex flex-col gap-2 ">
         <div className="text-base  text-center">
           Hello...
