@@ -93,7 +93,7 @@ const Page = () => {
         </div>
         <div className="w-full flex items-center md:w-3/4 bg-gray-200 rounded-2xl  p-4">
            <Image src="/resumesvg.png"  height={50} width={50} alt="" />
-          <Link href="/resume.pdf" target="_blank" className="underline  transition-transform duration-300 hover:scale-105"> click here to view</Link>
+          <Link href="/Myresume.pdf" target="_blank" className="underline  transition-transform duration-300 hover:scale-105"> click here to view</Link>
         </div>
       </div>
       <div className='flex flex-col gap-3'>
